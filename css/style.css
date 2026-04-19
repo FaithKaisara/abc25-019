@@ -2,18 +2,25 @@
 div#divmaincontainer{
     width: 100%;
     overflow: hidden;
-    margin: auto;
-    border: 1px solid black;
-    border-radius: 15px 15px 15px 15px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
     background-color: #f9f9f9;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    box-shadow: none;
 }
 /*DESKTOP*/
 @media screen and (min-width: 1024px){
     div#divmaincontainer{
         width: 100%;
         margin: 0;
+        padding: 0;
+        border: none;
+        border-radius: 0;
+        background-color: #f9f9f9;
+        box-shadow: none;
     }
+    
     .products-grid, section#featured-products{
         max-width: 1200px;
         margin:0 auto;
@@ -44,6 +51,11 @@ div#divmaincontainer{
     width: 100%;
     margin: 0;
     border-radius: 0;
+    padding: 0;
+    border: none;
+    background-color: #f9f9f9;
+    box-shadow: none;
+}
   }
   
   header#siteheader {
@@ -110,9 +122,9 @@ div#divmaincontainer{
 /*styling the header of the site*/
 header#siteheader{
     width: 100%;
-    height: auto;
+    margin: 0;
     background-image:linear-gradient(135deg,#000000,#ff6b6b,#ff8e53) ;
-    border-radius: 15px 15px 0 0;
+    border-radius: 0;
     padding: 40px 20px;
     text-align: center;
 }
@@ -141,10 +153,12 @@ span#sitemotto{
 
 /*styling site navigation*/
 nav#sitenav{
-    width: fit-content;
-    margin: auto;
+    width: 100%;
+    margin: 0;
+    background-color: #222;
+    text-align: center;
     position: relative;
-    padding: 8px 20px;
+    padding: 15px 0;
     border-radius: 60px;
     background: rgba( 34, 34, 34, 0.08);
     backdrop-filter: blur(15px);
@@ -281,12 +295,13 @@ section#featured-products{
 
 /*footer styling*/
 footer#sitefooter{
+    width: 100%;
+    margin: 0;
     background-color: #000;
     color: #ccc;
     text-align: center;
     padding: 25px;
-    margin-top: 30px;
-    border-radius: 0 0 15px 15px;
+    border-radius: 0;
 }
 
 footer#sitefooter a{

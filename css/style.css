@@ -120,13 +120,16 @@ div#divmaincontainer{
 }
 
 /*styling the header of the site*/
-header#siteheader{
+#siteheader{
     width: 100%;
     margin: 0;
-    background-image:linear-gradient(135deg,#000000,#ff6b6b,#ff8e53);
+    background: #ff6b6b;
     border-radius: 0;
     padding: 40px 20px;
     text-align: center;
+}
+#siteheader{
+    background-image: linear-gradient(135deg, #000000, #ff6b6b, #ff8e53);
 }
 
 /* styling site title*/

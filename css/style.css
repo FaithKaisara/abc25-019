@@ -86,6 +86,24 @@ ul#ulnav>li a:hover{
     transform: scale(1.05);
 }
 
+nav#sitenav ul#ulnav li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 12px 25px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    border-radius: 40px;
+}
+
+nav#sitenav ul#ulnav li a:hover{
+    background-color: #ff6b6b;
+    color: black;
+    transform: scale(1.05);
+}
+
 /*styling main content area*/
 main#maincontent{
     padding: 30px;

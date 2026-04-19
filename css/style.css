@@ -43,22 +43,16 @@ span#sitemotto{
 
 /*styling site navigation*/
 nav#sitenav{
-    width: fit-content;
-    margin: auto;
-    position: relative;
-    padding: 8px 20px;
-    border-radius: 60px;
-    background: rgba( 34, 34, 34, 0.08);
-    backdrop-filter: blur(15px);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
-    border: 0.5px solid #ccc;
+    width: 100%;
+    background-color: #222;
+    text-align: center;
+    padding: 15px 0;
 }
 
 /*styling nagivation elements*/
 ul#ulnav{
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 ul#ulnav>li{
@@ -67,41 +61,20 @@ ul#ulnav>li{
     margin: 0 5px;
 }
 
-ul#ulnav>li a:hover{
+ul#ulnav>li a{
     color: white;
     text-decoration: none;
     font-family: Arial, sans-serif;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 16px;
-    padding: 12px 25px;
-    transition: all 0.3s ease;
+    padding: 10px 20px;
     display: inline-block;
-    background-color: transparent;
-    border-radius: 40px;
 }
 
 ul#ulnav>li a:hover{
     background-color: #ff6b6b;
     color: black;
-    transform: scale(1.05);
-}
-
-nav#sitenav ul#ulnav li a{
-    color: white;
-    text-decoration: none;
-    font-family: 'Poppins', Arial, sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    padding: 12px 25px;
-    transition: all 0.3s ease;
-    display: inline-block;
-    border-radius: 40px;
-}
-
-nav#sitenav ul#ulnav li a:hover{
-    background-color: #ff6b6b;
-    color: black;
-    transform: scale(1.05);
+    border-radius: 5px;
 }
 
 /*styling main content area*/

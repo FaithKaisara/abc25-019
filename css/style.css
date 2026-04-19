@@ -1,12 +1,110 @@
 /*styling div main container*/
 div#divmaincontainer{
-    width: 80%;
+    width: 100%;
     overflow: hidden;
     margin: auto;
     border: 1px solid black;
     border-radius: 15px 15px 15px 15px;
     background-color: #f9f9f9;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+/*DESKTOP*/
+@media screen and (min-width: 1024px){
+    div#divmaincontainer{
+        width: 100%;
+        margin: 0;
+    }
+    .products-grid, section#featured-products{
+        max-width: 1200px;
+        margin:0 auto;
+    }
+}
+
+/*TABLET*/
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .products-grid, section#featured-products {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
+  .product-card {
+    width: 100%;
+  }
+  
+  section#about-content, .contact-container, .feedback-container {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+}
+
+/*MOBILE*/
+@media screen and (max-width: 767px) {
+  div#divmaincontainer {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+  
+  header#siteheader {
+    padding: 20px 10px;
+  }
+  
+  h1#sitetitle {
+    font-size: 32px;
+  }
+    
+  span#sitemotto {
+    font-size: 14px;
+  }
+  
+  nav#sitenav {
+    padding: 10px 0;
+  }
+  
+  ul#ulnav li {
+    display: block;
+    margin: 5px 0;
+  }
+
+   ul#ulnav li a {
+    display: block;
+    padding: 8px;
+  }
+  
+  .products-grid, section#featured-products {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 15px;
+  }
+  
+  .product-card {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+    section#hero {
+    padding: 40px 15px;
+  }
+  
+  section#hero h2 {
+    font-size: 28px;
+  }
+  
+  section#about-content, .contact-container, .feedback-container {
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  
+  .about-image img, .contact-info, .contact-form {
+    width: 100%;
+  }
+
+    footer#sitefooter {
+    padding: 15px;
+    font-size: 12px;
+  }
 }
 
 /*styling the header of the site*/

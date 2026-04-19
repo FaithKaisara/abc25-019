@@ -123,7 +123,7 @@ div#divmaincontainer{
 header#siteheader{
     width: 100%;
     margin: 0;
-    background-image:linear-gradient(135deg,#000000,#ff6b6b,#ff8e53) ;
+    background-image:linear-gradient(135deg,#000000,#ff6b6b,#ff8e53);
     border-radius: 0;
     padding: 40px 20px;
     text-align: center;
@@ -208,7 +208,7 @@ section#hero{
     background: linear-gradient(135deg,#ff6b6b,#ff8e53);
     text-align: center;
     padding: 60px 20px;
-    border-radius: 20px;
+    border-radius: 0;
     margin-bottom: 40px;
     color: white;
     overflow: hidden;

@@ -67,7 +67,7 @@ ul#ulnav>li{
     margin: 0 5px;
 }
 
-ul#ulnav>li a:hover{
+ul#ulnav>li a{
     color: white;
     text-decoration: none;
     font-family: Arial, sans-serif;
@@ -77,12 +77,12 @@ ul#ulnav>li a:hover{
     display: inline-block;
     background-color: transparent;
     border-radius: 40px;
+    transition: none;
 }
 
 ul#ulnav>li a:hover{
     background-color: #ff6b6b;
     color: black;
-    transform: scale(1.05);
 }
 
 /*styling main content area*/

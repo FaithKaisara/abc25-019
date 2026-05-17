@@ -264,18 +264,12 @@ section#featured-products{
 
 /*product card styling*/
 .product-card{
-    width: 250px;
-    background-color: white;
-    border-radius: 15px;
-    text-align: center;
-    padding-bottom: 20px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+   cursor: pointer;
     transition: transform 0.3s ease;
 }
 
 .product-card:hover{
-    transform: translateY(-10px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
 }
 
 .product-card img{
@@ -331,39 +325,6 @@ section#all-products .product-card{
     width: 100%;
     max-width: 250px;
     margin: 0 auto;
-}
-
-.product-options{
-    margin-top: 15px;
-    padding: 0 10px;
-}
-
-.size-select, .color-select{
-    width: 100%;
-    padding: 8px;
-    margin: 5px 0;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    font-family: Arial, sans-serif;
-    background: white;
-}
-
-.add-btn{
-    width: 100%;
-    background: black;
-    color: white;
-    border: none;
-    padding: 8px;
-    margin-top: 10px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.add-btn:hover{
-    background: #ff6b6b;
-    color: black;
 }
 
 /*Product Detail Page Styles*/

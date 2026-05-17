@@ -366,6 +366,109 @@ section#all-products .product-card{
     color: black;
 }
 
+/*Product Detail Page Styles*/
+section#product-detail-section{
+    padding: 40px 20px;
+}
+
+.product-detail-container{
+    display: flex;
+    gap: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.product-detail-image{
+    flex: 1;
+}
+
+.product-detail-image img{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+.product-detail-info{
+    flex: 1;
+}
+
+.product-detail-info h3{
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product-detail-info .price{
+    font-size: 24px;
+    color: #ff6b6b;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.product-description{
+    margin-bottom: 25px;
+}
+
+.product-description h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product-description p {
+    line-height: 1.6;
+    color: #666;
+}
+
+.option-group {
+    margin-bottom: 15px;
+}
+
+.option-group label {
+    display: inline-block;
+    width: 70px;
+    font-weight: bold;
+}
+
+.option-group select,
+.option-group input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 150px;
+}
+
+.add-to-cart {
+    margin-top: 10px;
+    width: 100%;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.add-to-cart:hover {
+    background: #ff8e53;
+    transform: scale(1.02);
+}
+
+/* Responsive for mobile */
+@media screen and (max-width: 768px) {
+    .product-detail-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .product-detail-image img {
+        max-width: 100%;
+    }
+}
+
 
 /*About Page*/
 section#about-section{
@@ -417,7 +520,6 @@ section#about-section{
         text-align: center;
     }
 }
-
 
 
 /*Contact Page*/
@@ -485,7 +587,6 @@ section#contact-section{
         grid-template-columns: 1fr;
     }
 }
-
 
 
 /*Feedback Page*/
